@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SimpleMock privacy policy</title>
+<style>
+    body {
+        max-width: 850px;
+        margin: 40px auto;
+        padding: 0 24px;
+        font: 16px/1.8 system-ui;
+        color: #202124
+    }
+
+    h1 {
+        font-size: 28px
+    }
+
+    h2 {
+        font-size: 20px;
+        margin-top: 30px
+    }
+
+    section {
+        margin: 50px 0
+    }
+
+    nav a {
+        margin-right: 20px
+    }
+
+    .draft {
+        background: #fff3cd;
+        padding: 16px;
+        border-radius: 8px
+    }
+</style>
+
+<body>
+    <h1>SimpleMock · Privacy policy</h1>
+    <p>Last updated: 2026-10-13 · Version 0.8.9</p>
+    <p class="draft">
+        Publisher / 发布者： imsmallyan<br>
+        Contact / 联系邮箱： imsmallyan@gmail.com
+    </p>
+    <nav><a href="#en">en</a><a href="#zh_CN">zh_CN</a><a href="#ja">ja</a><a href="#zh_TW">zh_TW</a></nav>
+    <section id="en" lang="en">
+        <h1>Privacy and permissions</h1>
+        <h2>Purpose</h2>
+        <p>SimpleMock mocks API responses for development and turns selected real responses into editable rules. No
+            account or server is required.</p>
+        <h2>Data access</h2>
+        <p>With the main switch on and active rules, the extension attaches to HTTP/HTTPS tabs and frames. It
+            temporarily processes page origins, request URLs, methods and headers, and reads candidate request bodies
+            when needed for matching. Only matching website sources and rule conditions receive mock responses. DevTools
+            capture records only after Start recording is clicked and reads response bodies when a request is selected.
+            Attachment scope is broader than actual rule matches. Turning the main switch off disconnects debugging.</p>
+        <h2>Local storage</h2>
+        <p>Rules, groups, response bodies, matching conditions and preferences stay in this browser profile's local
+            extension storage without cloud sync. The DevTools capture list holds at most 50 entries in panel memory;
+            conversion drafts use browser session storage. Rules are not encrypted and may contain sensitive information
+            you enter or capture. Export writes the group and all rule contents to a local JSON file you choose. Do not
+            publish files containing tokens, passwords or personal data.</p>
+        <h2>Transmission and sharing</h2>
+        <p>The extension does not send rules, page contents or captured data to the developer or third parties. It has
+            no telemetry, advertising or analytics service. Unmatched requests still go from the page to the original
+            API; mocked responses are delivered to that page. Exporting or sharing a file also exposes the data it
+            contains.</p>
+        <h2>Permission purposes</h2>
+        <p>storage saves local rules and preferences. debugger mocks Fetch/XHR in Chrome's native network pipeline while
+            keeping Network/Response visible. tabs reads tab URLs to identify supported pages and current-page
+            connection status. downloads exports rules on user request and verifies download completion. There is no
+            advertising, background upload or remote code loading.</p>
+        <h2>Control and deletion</h2>
+        <p>Turn off the main switch, a group or a rule; delete rules you no longer need; pause or clear DevTools
+            capture. Cancel in Chrome's debugging banner disconnects mocking. Uninstalling removes extension storage but
+            does not delete exported files; delete those separately.</p>
+        <h2>Limited Use</h2>
+        <p>SimpleMock uses information received through Chrome APIs in accordance with the Chrome Web Store User Data
+            Policy, including Limited Use. Data is used only for visible API mocking and rule editing features, never
+            sold or used for advertising or credit assessment. The developer does not remotely read this local data.</p>
+    </section>
+    <section id="zh_CN" lang="zh-CN">
+        <h1>隐私与权限说明</h1>
+        <h2>用途</h2>
+        <p>SimpleMock用于开发调试时模拟API响应，并将用户选取的真实响应转换为可编辑规则。不需要账号或服务器。</p>
+        <h2>访问范围</h2>
+        <p>开启总开关并有有效规则时，扩展会连接普通HTTP/HTTPS标签页及iframe，临时处理网页来源、请求地址、方法和
+            Header，以判断是否匹配；必要时读取匹配候选的请求体。只有适用网站与规则条件满足时才模拟。DevTools
+            捕获仅在用户点击开始记录后工作，用户选取请求后才读取响应正文。标签页连接范围大于规则实际命中范围；关闭总开关会断开调试。</p>
+        <h2>本地保存</h2>
+        <p>规则、分组、响应正文、匹配条件及界面偏好保存在当前浏览器配置的本地扩展存储中，不使用云同步。捕获列表仅在DevTools面板内存中保存，最多50
+            条；转换草稿临时保存在浏览器会话存储中。规则未加密，可能含你填写或捕获的敏感信息。导出会把分组及全部规则内容保存到你选择的本地JSON文件；不要公开含令牌、密码或个人资料的文件。</p>
+        <h2>传输与共享</h2>
+        <p>扩展不向开发者或第三方发送规则、网页内容或捕获数据，不提供遥测、广告或分析服务。不匹配的网页请求仍由网页发送到原API；模拟响应返回给该网页。用户自行导出或分享文件时，文件中的数据也会被分享。</p>
+        <h2>权限用途</h2>
+        <p>storage：本地规则和偏好；debugger：在Chrome原生网络流程中模拟Fetch/XHR，并保留Network/Response可见性；tabs：读取标签页
+            URL，识别可连接网页及当前页状态；downloads：用户主动导出规则及确认文件下载完成。没有广告、后台上传或远程代码加载。</p>
+        <h2>用户控制与删除</h2>
+        <p>可关闭总开关、分组或单条规则，删除不再需要的规则，并在DevTools中暂停或清空捕获列表。Chrome调试提示的Cancel
+            会断开模拟。卸载扩展会移除扩展存储，但不会自动删除已导出的文件；导出文件需自行删除。</p>
+        <h2>有限使用承诺</h2>
+        <p>SimpleMock对通过Chrome API获取的信息的使用遵守Chrome Web Store用户数据政策及Limited Use要求。数据仅用于用户可见的API
+            模拟与规则编辑功能，不出售数据，不用于广告或信用评估；开发者不会远程读取这些本地数据。</p>
+    </section>
+    <section id="ja" lang="ja">
+        <h1>プライバシーと権限</h1>
+        <h2>用途</h2>
+        <p>SimpleMockは開発用にAPIレスポンスをモックし、選択した実レスポンスを編集可能なルールに変換します。アカウントやサーバーは不要です。</p>
+        <h2>アクセス範囲</h2>
+        <p>全体スイッチがオンで有効なルールがあると、HTTP/HTTPS
+            タブとフレームに接続します。出所、URL、メソッド、ヘッダーを一時的に処理し、照合候補の本文を必要な場合に読み取ります。対象サイトと条件に一致した場合のみモックします。DevTools
+            の記録は開始ボタンを押した後だけ行い、選択したリクエストのレスポンス本文を読みます。接続範囲はルールの一致範囲より広く、全体スイッチをオフにすると切断します。</p>
+        <h2>ローカル保存</h2>
+        <p>ルール、グループ、本文、条件、設定はこのブラウザプロファイルの拡張用ローカル領域に保存し、クラウド同期しません。捕獲一覧はパネルのメモリに最大50件、変換草稿はセッション領域に一時保存します。ルールは暗号化されず、入力・取得した機密情報を含む場合があります。エクスポートはルール全体を選択したローカル
+            JSONファイルに保存します。トークン、パスワード、個人情報を含むファイルを公開しないでください。</p>
+        <h2>送信と共有</h2>
+        <p>ルール、ページ内容、取得データを開発者や第三者に送信せず、テレメトリー、広告、解析サービスを提供しません。一致しないリクエストは元のAPI
+            に送信され、モックのレスポンスは対象ページに渡されます。ファイルを共有すると、含まれるデータも共有されます。</p>
+        <h2>権限の用途</h2>
+        <p>storageはルールと設定、debuggerはNetwork/Responseを保つFetch/XHRモック、tabsは対象タブのURLと接続状態、downloads
+            はユーザーによるエクスポートと完了確認に使います。広告、バックグラウンドアップロード、外部コード読み込みはありません。</p>
+        <h2>制御と削除</h2>
+        <p>全体・グループ・個別スイッチをオフにし、不要なルールを削除できます。DevToolsの記録は停止・消去できます。Chromeの通知でCancel
+            を押すと切断します。アンインストールで拡張領域は削除されますが、エクスポートしたファイルは別途削除してください。</p>
+        <h2>限定利用</h2>
+        <p>Chrome APIから得た情報はChrome Web StoreのユーザーデータポリシーとLimited Use に従い、API
+            モックとルール編集にのみ使います。販売、広告、信用評価には使わず、開発者がローカルデータを遠隔閲覧することはありません。</p>
+    </section>
+    <section id="zh_TW" lang="zh-TW">
+        <h1>隱私與權限說明</h1>
+        <h2>用途</h2>
+        <p>SimpleMock用於開發除錯時模擬API回應，並將使用者選取的真實回應轉換為可編輯規則。不需要帳號或伺服器。</p>
+        <h2>存取範圍</h2>
+        <p>開啟總開關且有有效規則時，擴充功能會連接一般HTTP/HTTPS分頁及iframe，暫時處理網頁來源、請求位址、方法和
+            Header，以判斷是否符合；必要時讀取比對候選的請求本文。只有適用網站與規則條件符合時才模擬。DevTools
+            擷取僅在使用者按開始記錄後運作，選取請求後才讀取回應本文。分頁連接範圍大於規則實際符合範圍；關閉總開關會中斷偵錯。</p>
+        <h2>本機儲存</h2>
+        <p>規則、群組、回應本文、比對條件及偏好保存在目前瀏覽器設定檔的擴充功能本機儲存中，不使用雲端同步。擷取清單僅存在DevTools面板記憶體中，最多50
+            筆；轉換草稿暫存於瀏覽器工作階段。規則未加密，可能含有你填寫或擷取的敏感資訊。匯出會把群組與全部規則內容儲存到你選擇的本機JSON檔案；不要公開含權杖、密碼或個人資料的檔案。</p>
+        <h2>傳輸與分享</h2>
+        <p>擴充功能不向開發者或第三方傳送規則、網頁內容或擷取資料，不提供遙測、廣告或分析服務。不符合的請求仍由網頁傳送至原API；模擬回應傳回該網頁。使用者自行匯出或分享檔案時，檔案中的資料也會被分享。</p>
+        <h2>權限用途</h2>
+        <p>storage：本機規則與偏好；debugger：在Chrome原生網路流程中模擬Fetch/XHR，保留Network/Response可見性；tabs：讀取分頁
+            URL，識別可連接網頁及目前頁面狀態；downloads：使用者主動匯出規則及確認下載完成。沒有廣告、背景上傳或遠端程式碼載入。</p>
+        <h2>使用者控制與刪除</h2>
+        <p>可關閉總開關、群組或單條規則，刪除不再需要的規則，在DevTools暫停或清空擷取清單。Chrome偵錯提示的Cancel
+            會中斷模擬。解除安裝會移除擴充功能儲存，但不會自動刪除已匯出的檔案；匯出檔案需自行刪除。</p>
+        <h2>有限使用承諾</h2>
+        <p>SimpleMock對透過Chrome API取得資訊的使用遵守Chrome Web Store使用者資料政策與Limited Use要求。資料僅用於可見的API
+            模擬與規則編輯功能，不出售，不用於廣告或信用評估；開發者不會遠端讀取本機資料。</p>
+    </section>
+    <p><a href="https://developer.chrome.com/docs/webstore/program-policies/policies">Chrome Web Store User Data
+            Policy</a></p>
+</body>
+
+</html>
